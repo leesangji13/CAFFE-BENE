@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{}
+
+.hTop{
+    background:#282828;
+    height:40px;
+    line-height:40px;
+    font-size:12px;
+}
+.hTop a{
+    display:block;
+    color:#fff;
+    border-left:1px solid #231f20;
+    padding:0 30px;
+}
+
+.engBtn{
+    float:left;
+}
+.engBtn a{
+    border-right:1px solid #231f20;
+}
+
+.util{
+    float:right;
+}
+.util li{
+    float:left;
+}
+.util li:last-child a{padding-right:0;}
+.util li a{}
+.util li img{
+    margin-left:5px;
+}
+
+.hBottom{
+    height:80px;
+    line-height:80px;
+}
+.hBottom h1{
+    float:left;
+}
+.hBottom h1 a{}
+.hBottom h1 img{
+    width:150px;
+}
+
+.gnb{
+    float:right;
+    font-family:'NanumMyeongjo',serif;
+    font-weight:900;
+    font-size:18px;
+}
+.gnb li{
+    float:left;
+    padding-left:50px;
+}
+.gnb li a{}
+
+/*푸터*/
+#footer{
+    color:#8c8c8c;
+    position:relative;
+    font-size:12px;
+}
+#footer a{
+    color:#8c8c8c;
+}
+
+.topBtn{
+    width:102px;
+    height:39px;
+    background:url(../images/common/btn_go_top.png) no-repeat;
+    position:absolute;
+    left:50%;
+    margin-left:-51px;
+    top:-39px;
+}
+.topBtn a{
+    display:block;
+    height:100%;
+    padding-left:30px;
+    padding-top:12px;
+    font-size:14px;
+    box-sizing:border-box;
+}
+
+.fTop{
+    background:#282828;
+    padding:50px 0;
+}
+.fTop dl{
+    float:left;
+    margin-right:80px;
+}
+.fTop dt{
+    font-size:16px;
+    font-family:'NanumMyeongjo',serif;
+    font-weight:900;
+}
+.fTop dt::after{
+    content:"";
+    display:block;
+    width:30px;
+    height:1px;
+    background:#8c8c8c;
+    margin:10px 0;
+}
+.fTop dd{
+    line-height:25px;
+    font-weight:200;
+}
+.fTop dd a{}
+
+.fBottom{
+    background:#1e1e1e;
+    padding:50px 0;
+}
+.fBottom .inner{
+    position:relative;
+}
+.fSns{
+    position:absolute;
+    right:0;
+}
+.fSns li{
+    float:left;
+    margin-left:5px;
+}
+.fSns li a{}
+.fSns li img{
+    width:25px;
+}
+
+.fLogo{
+    margin-bottom:30px;
+}
+.fLogo img{
+    width:180px;
+}
+
+.fInfo{
+    overflow:hidden;/*cf대신줄바꿈처리*/
+}
+.fInfo li{
+    float:left;
+}
+.fInfo li::after{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:8px;
+    background:#2d3333;
+    margin:0 5px;
+}
+.fInfo li:last-child::after{display:none;}
+.fInfo a{}
+
+.copy{
+    margin-top:20px;
+}
+
+
+
+
